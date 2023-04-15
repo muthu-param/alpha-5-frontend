@@ -6,5 +6,5 @@
 
 ## A Brief of the Prototype:
   What is your solution? nad how it works.
-  
- *The Repository must contain your **Execution Plan PDF**. [If it is a application submission it must contain, exceution instructions to run your code.]
+   [If it is a application submission The Readme file must contain exceution instructions to run your code.]
+ *The Repository must contain your **Execution Plan PDF**.
