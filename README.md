@@ -6,7 +6,8 @@
 
 ## A Brief of the Prototype:
   What is your solution? nad how it works.
-  
-  *[If it is a application submission The Readme file must contain exceution instructions to run your code.]
+
+## Code Execution Instruction:
+  *[If your solution is **not** application based, you can ignore this para]
   
  *The Repository must contain your **Execution Plan PDF**.
