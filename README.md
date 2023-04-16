@@ -5,8 +5,8 @@
 #### Team Leader Email - jitendra@param.network
 
 ## A Brief of the Prototype:
-  * What is your solution? and how it works.
-  The idea is to create a digital identity for existing and new users.
+   What is your solution? and how it works.
+  * The idea is to create a digital identity for existing and new users.
 
   * Create a blockchain-based website/app that combines voter registration and  cast voting in one platform. And users would can cast their vote for a chosen party in their region, which would be securely and privately recorded on the system.
 
