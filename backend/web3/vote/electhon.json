@@ -1,0 +1,274 @@
+{
+    "abi": [
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "enableAbsolute",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "disableAbsolute",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "isAbsolute",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "owner",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "uInternalId",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "name": "userType",
+                    "type": "uint256"
+                }
+            ],
+            "name": "onAdded",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "sender",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "voteType",
+                    "type": "string"
+                },
+                {
+                    "indexed": true,
+                    "name": "owner",
+                    "type": "address"
+                }
+            ],
+            "name": "onVoted",
+            "type": "event"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "metaInfo",
+                    "type": "string"
+                },
+                {
+                    "name": "primaryID",
+                    "type": "string"
+                },
+                {
+                    "name": "idType",
+                    "type": "string"
+                }
+            ],
+            "name": "addCandidate",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "metaInfo",
+                    "type": "string"
+                },
+                {
+                    "name": "primaryID",
+                    "type": "string"
+                },
+                {
+                    "name": "idType",
+                    "type": "string"
+                }
+            ],
+            "name": "addUsers",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "userAddress",
+                    "type": "address"
+                },
+                {
+                    "name": "voteType",
+                    "type": "string"
+                }
+            ],
+            "name": "giveVoting",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "contractOwner",
+                    "type": "address"
+                }
+            ],
+            "name": "getAllUsers",
+            "outputs": [
+                {
+                    "name": "usersAddress",
+                    "type": "address[]"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "contractOwner",
+                    "type": "address"
+                }
+            ],
+            "name": "getAllCandidates",
+            "outputs": [
+                {
+                    "name": "candidatesAddress",
+                    "type": "address[]"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "owner",
+                    "type": "address"
+                }
+            ],
+            "name": "getVotingStatus",
+            "outputs": [
+                {
+                    "name": "voteSpent",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "userID",
+                    "type": "address"
+                }
+            ],
+            "name": "getUser",
+            "outputs": [
+                {
+                    "name": "metaInfo",
+                    "type": "string"
+                },
+                {
+                    "name": "primaryID",
+                    "type": "string"
+                },
+                {
+                    "name": "idType",
+                    "type": "string"
+                },
+                {
+                    "name": "voteSpent",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "candidateID",
+                    "type": "address"
+                }
+            ],
+            "name": "getCandidate",
+            "outputs": [
+                {
+                    "name": "metaInfo",
+                    "type": "string"
+                },
+                {
+                    "name": "primaryID",
+                    "type": "string"
+                },
+                {
+                    "name": "idType",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "address": "0xf878ecd4999e8acd6db40b316c2be339ef25591f"
+}

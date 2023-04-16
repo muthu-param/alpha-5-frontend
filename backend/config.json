@@ -1,0 +1,13 @@
+{
+    "mongodbURL": "mongodb://0.0.0.0:27017",
+    "dbName": "electhon23",
+    "voterInfo": "voterInfo",
+    "otp": "otp",
+    "otpString": "12345678",
+    "candidate": "candidate",
+    "geth": "ws://34.24.23.54:8549/",
+    "keystore": {
+        "address": "0xc3ab8450c46bca0s1c35db0238d8c45ff99862e7",
+        "privateKey": "c8a2020f8c09b8366073c97a2289e2c3869389a014623ccaa42324676ac24b52"
+    }
+}
